@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
-        navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+        navbar.style.background = 'rgba(27, 27, 27, 0.98)';
         navbar.style.boxShadow = 'var(--shadow-sm)';
     } else {
         navbar.style.background = 'rgba(255, 255, 255, 0.95)';
