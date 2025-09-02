@@ -54,7 +54,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(34, 33, 33, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--gray-200);
     z-index: 1000;
