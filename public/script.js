@@ -76,10 +76,10 @@ contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     
     // Get form data
-    const formData = new FormData(contactForm);
-    const nombre = document.getElementById('nombre').value;
-    const email = document.getElementById('email').value;
-    const mensaje = document.getElementById('mensaje').value;
+    // const formData = new FormData(contactForm);
+    // const nombre = document.getElementById('nombre').value;
+    // const email = document.getElementById('email').value;
+    // const mensaje = document.getElementById('mensaje').value;
     
     // Simple validation
     if (!nombre || !email || !mensaje) {
